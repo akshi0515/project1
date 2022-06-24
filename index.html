@@ -54,8 +54,29 @@
           </li>
         </ul>
         
-        <a class="nav-link" id="a" href="#">Contact us</a>
-        <a class="nav-link" id="a" href="#">Login</a>
+        <!-- <a class="nav-link" id="a" href="#">Contact us</a> -->
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            contact
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
         <button type="button" class="btn  btn-primary btn-sm buy" > Buy/Renew</button>   
       </div>
     </div>
@@ -77,9 +98,11 @@
     
   </div>
 <div class="end">
-  <button type="button" class="btn  btn-primary btn-sm buy " ><i class="fa-regular fa-circle-question"></i> Contact us</button>
+  <button type="button" class="btn  btn-primary btn-sm buy " id="contact_us_btn"><i class="fa-regular fa-circle-question"></i> Contact us</button>
   
 </div>
+
+  <img src="curve-1.png" alt="" id="curve">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>

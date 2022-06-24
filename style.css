@@ -1,3 +1,19 @@
+body{
+    position: relative;
+}
+#dropdownMenuLink{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+#curve{
+    position: absolute;
+    bottom: -170px;
+}
+
+
+
 
 .hdd{
     background-color: rgb(4, 4, 69);
@@ -30,9 +46,7 @@ p{
     font-size:16px;
     padding: 19px;
 }
-.buy{
-    padding: 10px 25px 10px 25px;
-}
+
 
 
 .j{
@@ -48,4 +62,9 @@ p{
 .txt{
     text-align: left;
     padding: 15% 15% 16% 0% ;
+}
+
+#contact_us_btn{
+    padding: 10px 25px 10px 25px;
+    border-radius: 40px 2px 40px 40px;
 }
